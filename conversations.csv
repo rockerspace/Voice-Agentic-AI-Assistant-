@@ -1,0 +1,47 @@
+timestamp,session_id,turn_id,speaker,raw_text,intent,entities,sentiment,response_text,processing_time_ms,tts_engine,stt_engine
+2026-05-16T05:11:24.364633,sess_20260516_051124,1,user,Hello there! How are you today?,greeting,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.364712,sess_20260516_051124,1,assistant,,greeting,,,Hello! I'm your Voice AI Assistant. How can I help you today?,3.38,none,
+2026-05-16T05:11:24.366369,sess_20260516_051124,2,user,My name is Aisha. What can you do?,self_introduction,"{""name"": [""Aisha""]}",neutral,,,,speech_recognition
+2026-05-16T05:11:24.366464,sess_20260516_051124,2,assistant,,self_introduction,,,Nice to meet you! I'll remember you during our conversation. How can I help you today?,1.37,none,
+2026-05-16T05:11:24.366926,sess_20260516_051124,3,user,What time is it right now?,datetime_query,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.367038,sess_20260516_051124,3,assistant,,datetime_query,,,"The current date and time is: Saturday, May 16, 2026 at 05:11 AM.",0.16,none,
+2026-05-16T05:11:24.367551,sess_20260516_051124,4,user,Can you calculate 256 multiplied by 4?,math_query,"{""number"": [""256"", ""4""]}",neutral,,,,speech_recognition
+2026-05-16T05:11:24.367594,sess_20260516_051124,4,assistant,,math_query,,,Please provide a math expression like '5 + 3' or '10 * 4'.,0.27,none,
+2026-05-16T05:11:24.368108,sess_20260516_051124,5,user,Tell me a joke please!,entertainment,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.368152,sess_20260516_051124,5,assistant,,entertainment,,,Why don't scientists trust atoms? Because they make up everything! 😄 Want to hear another one?,0.3,none,
+2026-05-16T05:11:24.368631,sess_20260516_051124,6,user,I need help with something important,help_request,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.368710,sess_20260516_051124,6,assistant,,help_request,,,"I can help with: answering questions, math calculations, telling the time/date, general conversation, and much more. Just speak naturally!",0.23,none,
+2026-05-16T05:11:24.369122,sess_20260516_051124,7,user,What is the weather like today?,datetime_query,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.369204,sess_20260516_051124,7,assistant,,datetime_query,,,"The current date and time is: Saturday, May 16, 2026 at 05:11 AM.",0.23,none,
+2026-05-16T05:11:24.369607,sess_20260516_051124,8,user,Thank you so much for your help!,help_request,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.369693,sess_20260516_051124,8,assistant,,help_request,,,"I can help with: answering questions, math calculations, telling the time/date, general conversation, and much more. Just speak naturally!",0.18,none,
+2026-05-16T05:11:24.370129,sess_20260516_051124,9,user,Search for information about Python programming,search_query,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.370167,sess_20260516_051124,9,assistant,,search_query,,,"I'd search the web for that, but I'm in offline mode. Try enabling a GenAI API key for full web-aware responses!",0.24,none,
+2026-05-16T05:11:24.370583,sess_20260516_051124,10,user,I hate when things don't work properly,general_query,{},negative,,,,speech_recognition
+2026-05-16T05:11:24.370611,sess_20260516_051124,10,assistant,,general_query,,,I understood you said: 'I hate when things don't work properly'. Your tone seems negative. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,0.31,none,
+2026-05-16T05:11:24.371387,sess_20260516_051124,11,user,Remind me about my meeting tomorrow,reminder,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.371448,sess_20260516_051124,11,assistant,,reminder,,,"I've noted your reminder request! In a full deployment, I'd integrate with your calendar.",0.3,none,
+2026-05-16T05:11:24.372075,sess_20260516_051124,12,user,Who are you and what are you called?,assistant_query,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.372114,sess_20260516_051124,12,assistant,,assistant_query,,,"I'm your Voice AI Assistant, powered by advanced NLP and GenAI. I can understand your voice, process your requests, and respond intelligently!",0.35,none,
+2026-05-16T05:11:24.372778,sess_20260516_051124,13,user,This is absolutely amazing and wonderful!,general_query,{},positive,,,,speech_recognition
+2026-05-16T05:11:24.372842,sess_20260516_051124,13,assistant,,general_query,,,I understood you said: 'This is absolutely amazing and wonderful!'. Your tone seems positive. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,0.3,none,
+2026-05-16T05:11:24.373384,sess_20260516_051124,14,user,What are the latest news headlines?,news_query,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.373426,sess_20260516_051124,14,assistant,,news_query,,,I don't have live news access in offline mode. Enable a GenAI API key for current events!,0.3,none,
+2026-05-16T05:11:24.373840,sess_20260516_051124,15,user,"Goodbye, talk to you later!",farewell,{},neutral,,,,speech_recognition
+2026-05-16T05:11:24.373877,sess_20260516_051124,15,assistant,,farewell,,,"Aisha, goodbye! It was great talking with you. Have a wonderful day!",0.23,none,
+2026-05-16T11:25:47.273914,sess_20260516_112512,1,user,make me do,general_query,{},neutral,,,,speech_recognition
+2026-05-16T11:25:47.276280,sess_20260516_112512,1,assistant,,general_query,,,I understood you said: 'make me do'. Your tone seems neutral. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,1926.85,gtts,
+2026-05-16T11:26:23.961880,sess_20260516_112512,2,user,hi how are you doing,greeting,{},neutral,,,,speech_recognition
+2026-05-16T11:26:23.962764,sess_20260516_112512,2,assistant,,greeting,,,Hello! I'm your Voice AI Assistant. How can I help you today?,4.18,gtts,
+2026-05-16T11:29:16.391254,sess_20260516_112851,1,user,give me a dosa recipe,general_query,{},neutral,,,,speech_recognition
+2026-05-16T11:29:16.392541,sess_20260516_112851,1,assistant,,general_query,,,I understood you said: 'give me a dosa recipe'. Your tone seems neutral. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,297.55,gtts,
+2026-05-16T11:31:06.764950,sess_20260516_113046,1,user,can you get me the,general_query,{},neutral,,,,speech_recognition
+2026-05-16T11:31:06.765764,sess_20260516_113046,1,assistant,,general_query,,,I understood you said: 'can you get me the'. Your tone seems neutral. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,286.11,gtts,
+2026-05-16T11:39:45.034391,sess_20260516_113921,1,user,hello,greeting,{},neutral,,,,speech_recognition
+2026-05-16T11:39:45.035037,sess_20260516_113921,1,assistant,,greeting,,,Hello! I'm your Voice AI Assistant. How can I help you today?,1872.31,gtts,
+2026-05-16T11:39:54.926051,sess_20260516_113921,2,user,can you please explain what is,general_query,{},neutral,,,,speech_recognition
+2026-05-16T11:39:54.927254,sess_20260516_113921,2,assistant,,general_query,,,I understood you said: 'can you please explain what is'. Your tone seems neutral. I'm in offline mode — set GEMINI_API_KEY or OPENAI_API_KEY for smarter responses!,116.79,gtts,
+2026-05-16T11:44:36.207780,sess_20260516_114205,1,user,hey make me give me the recipe for,greeting,{},neutral,,,,speech_recognition
+2026-05-16T11:44:36.208526,sess_20260516_114205,1,assistant,,greeting,,,Hello! I'm your Voice AI Assistant. How can I help you today?,89135.7,gtts,
+2026-05-16T11:45:06.141582,sess_20260516_114205,2,user,hey give me the recipe for idli,greeting,{},neutral,,,,speech_recognition
+2026-05-16T11:45:06.142818,sess_20260516_114205,2,assistant,,greeting,,,Hello! I'm your Voice AI Assistant. How can I help you today?,111.52,gtts,
